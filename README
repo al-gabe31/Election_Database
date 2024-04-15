@@ -1,0 +1,26 @@
+Prerequisites to run the project:
+* have Python, Jupyter Notebooks, SQL, and SQLite installed
+* make sure all files are in the same directory (especially elections.ipynb and functions.py)
+
+
+Running the project:
+The only file you really only need to interact with is elections.ipynb. The Jupyter Notebook file contains cells that are meant to be executed sequentially. It's expected that you only do this once to get the expected results.
+
+It's still possible to run other cells (especially the parts involing the query reports) and get the same result. Basically, anything that involves deleting and/or changing data (whether it be a table or a row) should be approached with caution. Again, project is meant to be executed cell by cell sequentially and only once.
+
+Included should be an elections.sqlite file. This is where all data will be stored. I believe VSCode has an extension that allows you to visually see all the data. Don't worry too much about it if you can't find the extension.
+
+
+Predetermined values:
+The elections.ipynb file, by default, contains predetermined values to make it easier for you (the grader) to run my project. Once you think you have a solid understanding of how the project works, you can even put in your own data. There are various input commands that have been commented out. You may uncomment them if you want to input your own data.
+
+
+Connecting and disconnecting the database:
+Running the first cell in elections.ipynb should connect you to the SQLite database. The last cell closes the connection.
+
+
+Deleting the entire database:
+The 2nd to last cell in elections.ipynb allows you to delete the entire database if you want. You'll be prompted to confirm your action. Just type "YES" (all caps) to actually confirm that you want to delete all data in the database.
+
+
+If you ever have any questions relating to project specifics, please emails me at lq90575@umbc.edu

@@ -1,0 +1,19 @@
+-- SCRIPT TO DROP ALL TABLES
+
+DROP TABLE IF EXISTS Cast_Votes;
+DROP TABLE IF EXISTS Voting_Registry;
+DROP TABLE IF EXISTS Ballots_Availability;
+DROP TABLE IF EXISTS Ballots;
+DROP TABLE IF EXISTS Election_Staff_Shift;
+DROP TABLE IF EXISTS Election_Staff_Clerk;
+DROP TABLE IF EXISTS Election_Staff_Monitor;
+DROP TABLE IF EXISTS Election_Staff;
+DROP TABLE IF EXISTS Folks_Name;
+DROP TABLE IF EXISTS Folks_Emails;
+DROP TABLE IF EXISTS Folks;
+DROP TABLE IF EXISTS Places_Operating_Periods;
+DROP TABLE IF EXISTS Places_Voting_Center;
+DROP TABLE IF EXISTS Places_Residences;
+DROP TABLE IF EXISTS Places;
+DROP TABLE IF EXISTS Places_Address;
+DROP TABLE IF EXISTS Places_Coordinates;
